@@ -1,0 +1,49 @@
+
+
+.sk-weather {
+	height: 255px;
+}
+.sk {
+    gap: 14px !important;
+}
+
+.sk-cards {
+    max-width: 910px;
+    margin: 0 auto;
+	display: flex;
+	justify-content: center !important;
+	gap: 14px;
+}
+.sk-item {
+    height: 200px;
+}
+
+  .skeleton {
+	background: #00ccff7a;
+	border-radius: 10px;
+	// animation: skeleton 2s linear infinite;
+	opacity: 0.7;
+	position: relative;
+	flex-shrink: 0;
+	overflow: hidden;
+
+	&::after {
+		content: "";
+		display: flex;
+		background-image: linear-gradient(0.25turn, transparent, rgb(192, 243, 250), transparent);
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 30%;
+		animation: skeletons 1s linear infinite;
+	}
+}
+
+@keyframes skeletons {
+	from {
+		left: -5%;
+	}
+	to {
+		left: 70%;
+	}
+}

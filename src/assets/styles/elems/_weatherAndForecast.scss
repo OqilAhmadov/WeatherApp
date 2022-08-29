@@ -1,0 +1,31 @@
+.ForecastWrapper {
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 35px auto 0;
+}
+
+@media (max-width: 875px) {
+  .ForecastWrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 14px 14px;
+    grid-template-areas:
+      ". . ."
+      ". . .";
+      padding: 0 20px;
+  }
+}
+@media(max-width: 600px){
+   .ForecastWrapper{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    ". ."
+    ". ."
+    ". .";
+   }
+}

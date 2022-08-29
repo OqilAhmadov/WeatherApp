@@ -1,0 +1,51 @@
+.forecast-wrapper {
+    background-color: rgba(0, 187, 255, 0.274);
+    border-radius: 14px;
+    padding: 24px;
+    .temp_max {
+        font-size: 16px;
+        font-weight: 500;
+        padding-right: 4px;
+    }
+    .temp_min {
+        font-size: 18px;
+        font-weight: 500;
+        padding-left: 4px;
+        text-align: center;
+
+    }
+    .sub {
+        max-width: 150px;
+        font-weight: 600;
+        font-size: 12px;
+        text-align: center;
+    }
+    .iconWeather {
+        display: block;
+        margin: 0 auto;
+    }
+    .title {
+        text-align: center;
+    }
+    .temperature {
+        text-align: center;
+    }
+}
+
+@media(max-width: 875px){
+    .forecast-wrapper {
+        .sub {
+            max-width: 100%;
+            font-size: 14px;
+        }
+    }
+}
+@media(max-width: 600px){
+    .forecast-wrapper {
+        padding: 20px 20px;
+        .title {
+            font-size: 20px;
+        }
+    }
+}
+

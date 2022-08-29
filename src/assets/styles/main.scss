@@ -1,0 +1,13 @@
+// BASIC MENTIONED STYLES
+@import "basics/variables";
+@import "basics/normalizecustom";
+@import "basics/weatherSkeletons";
+
+// ADDITIONAL ELEMENTS STYLES
+@import "elems/search";
+@import "elems/weatherAbout";
+@import "elems/weatherAndForecast";
+@import "elems/forecast";
+
+// LAYOUT STYLES
+@import "layouts/background";
