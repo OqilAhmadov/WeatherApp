@@ -7,11 +7,11 @@ const WeatherSkeleton = () => {
         <div className=" city skeleton">
 
         </div>
-        <div className="city-wrapper sk-weather skeleton">
+        <div className="city-weather sk-weather skeleton">
 
         </div>
     </div>
-    <div className="ForecastWrapper">
+    <div className="ForecastWrapper sk-cards" >
       <div className=" sk-item skeleton"></div>
       <div className=" sk-item skeleton"></div>
       <div className=" sk-item skeleton"></div>
